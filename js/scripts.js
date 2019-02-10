@@ -66,13 +66,13 @@ function reset() {
 }
 
 function rate() {
-    if (counter <= 13) {
+    if (counter <= 12) {
         return 5;
-    } else if (counter <= 15) {
+    } else if (counter <= 14) {
         return 4;
-    } else if (counter <= 18) {
+    } else if (counter <= 17) {
         return 3;
-    } else (counter > 19); {
+    } else (counter > 18); {
         return 2;
     }
 }
